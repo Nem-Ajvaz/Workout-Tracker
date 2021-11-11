@@ -29,18 +29,26 @@ As a user, I want to be able to view create and track daily workouts. I want to 
 ## Acceptance Criteria
 
 ```
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
+When the user loads the page, they should be given the option to create a new workout or continue with their last workout.
+
+The user should be able to:
+
+  * Add exercises to the most recent workout plan.
+
+  * Add new exercises to a new workout plan.
+
+  * View the combined weight of multiple exercises from the past seven workouts on the `stats` page.
+
+  * View the total duration of each workout from the past seven workouts on the `stats` page.
 ```
 
 ## Installation
 
-Clone my repo using the following command `https://github.com/Nem-Ajvaz/Budget-Tracker.git` to install the npm dependencies run `npm install`
+Clone my repo using the following command `https://github.com/Nem-Ajvaz/Workout-Tracker.git` to install the npm dependencies run `npm install`
 
 ## Demonstration
 
-![Demo](/assets/images/Budget.gif)
+![Demo](/assets/FitnessTracker.gif)
 
 ## Questions
 
